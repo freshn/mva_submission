@@ -52,7 +52,7 @@ test_pipeline = [
             dict(type='DefaultFormatBundle'),
             dict(
                 type='Collect',
-                meta_keys=('filename', 'ori_shape', 'img_shape', 'pad_shape',
+                meta_keys=('filename', 'ori_filename', 'ori_shape', 'img_shape', 'pad_shape',
                            'scale_factor', 'flip', 'flip_direction',
                            'img_norm_cfg', 'border'),
                 keys=['img'])
